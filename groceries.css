@@ -1,0 +1,45 @@
+body {
+	
+	padding-left: 20px;
+	border-left: thin solid red;
+	background-color: #F1F0F0;
+}
+/*Introduction style*/
+#intro {
+	
+	background-color: #F1F0F0;
+	border-bottom: thin solid gray;
+	padding: 10px;
+	font-family: 'Tangerine', serif;
+	
+}
+
+/*Highlight color*/
+.urgent {
+	background-color: #FFB3B7;
+	color: #ED1A24;
+	border-bottom: thin solid gray;
+	padding: 10px 8px 10px 10px;
+}
+
+.done {
+	background-color: #A1F89D;
+	color: green;
+	border-bottom: thin solid gray;
+	padding: 10px 8px 10px 10px;
+}
+ /*Normal grocery list color*/
+li {
+	
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+	padding: 10px 8px 10px 10px;
+	background-color: #F1F0F0;
+	color: black;
+}
+/*color when hovering over item*/
+li:hover { 
+	background-color: #9895B0;
+	color: white
+	
+}
